@@ -88,3 +88,4 @@ otherImgs.forEach(item => item.addEventListener('dblclick', event => {
 }))
 
 //stretch - adding greensock animation
+TweenMax.to('busImg', 5, { left: 400, backgroundColor: 'orange', padding: 20, borderColor: 'blue', borderRadius: 20 });
